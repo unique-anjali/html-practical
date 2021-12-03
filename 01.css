@@ -1,0 +1,31 @@
+body{
+    text-decoration: goldenrod;
+    font-size: xx-large;
+    text-align: center;
+}
+.h{
+    background-color: rgb(223, 191, 53);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.size{
+    table-layout: inherit;
+    font-size:xx-large;
+    background-color: khaki;
+}
+.tb{
+    font-size: inherit;
+    background-color: rgb(153, 120, 119);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.r1{
+    background-color: darkkhaki;
+}
+.r2{
+    background-color: darkkhaki;
+}
+.r3{
+    background-color: darkkhaki;
+}
+
