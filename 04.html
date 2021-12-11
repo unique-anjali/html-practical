@@ -1,0 +1,52 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+
+<title> Login Page </title>  
+
+</head>    
+<body>
+    <style>
+    body {  
+        font-family: Calibri, Helvetica, sans-serif;  
+        background-color: rgb(236, 238, 206);  
+      }  
+        button {   
+             background-color: #0e7212;   
+             width: 100%;  
+              color: rgb(241, 204, 135);   
+              padding: 15px;   
+              margin: 10px 0px;      
+              cursor: pointer;   
+               }  
+               form {   
+                border: 3px solid #f1f1f1;   
+            }   
+       input[type=text], input[type=password] {   
+              width: 100%;   
+              margin: 8px 0;  
+              padding: 12px 20px;   
+              display: inline-block;   
+              border: 2px solid green;   
+              box-sizing: border-box;   
+          } 
+        .cancelbtn {   
+              width: auto;   
+              padding: 10px 18px;  
+              margin: 10px 5px;  
+          }   
+       </style>    
+    <center> <h1> Student Login Form </h1> </center>   
+    <form>  
+        <div class="head">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required><br>
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required> <br><br> 
+            <button type="submit" >Login</button>    
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> password? </a>   <br>
+        </div>   
+    </form>     
+</body>     
+</html>  
